@@ -1,5 +1,8 @@
+
 import React from "react";
 import './Main.css';
+
+
 
 
 
@@ -15,7 +18,8 @@ class Work extends React.Component{
                 </div>
                 <h1 className="work-text" style={{'lineHeight':'2.5rem'}}>{this.props.name}</h1>
             </div>
-            <h4>{this.props.time}</h4>
+            
+            <h4>{this.props.time.length===1 ? `${this.props.time[0]} — Present`: `${this.props.time[0]} — ${this.props.time[1]}`}</h4>
             <p>{this.props.children}</p>
             
         </div>

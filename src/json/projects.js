@@ -5,7 +5,7 @@ import tailwindcss from '../images/tailwindcss.svg'
 import react from '../images/react.svg'
 import typescript from '../images/typescript.svg'
 
-//Key share and chatwin98 images 
+//Key share, Upperlower, and chatwin98 images 
 import keyshare from '../images/keyshare.png'
 import chat_win98 from '../images/chat-win98.png'
 import html from '../images/html.svg';
@@ -14,10 +14,20 @@ import firebase from '../images/firebase.svg';
 import javascript from '../images/javascript.svg';
 
 
-//Space catch
+//Space catch and Simple Pad
 import spacecatch from '../images/spacecatch.png';
 import java from '../images/java.svg';
 
+//Upperlower
+import upperlower from '../images/upperlower.png'
+import bootstrap from '../images/bootstrap.svg'
+
+//Bad apple
+import badapple from '../images/badapple.png';
+import python from '../images/python.svg';
+
+//Simple pad
+import simplepad from '../images/simplepad.png'
 
 const projects = [
     {
@@ -49,7 +59,7 @@ const projects = [
     {
         name: "Space Catch",
         image: spacecatch,
-        description : "Created a game for December Virtual CodeDay 2020! My friend, Aareev Panda, made all of the graphics for the game and his YouTube channel can be found in the CodeDay showcase link.",
+        description : "Created a game for December Virtual CodeDay 2020! My friend, Aareev Panda, made all of the graphics for the game and his YouTube channel can be found in the game!",
         techstack: [
             {
                 logourl: java,
@@ -112,7 +122,60 @@ const projects = [
     link:"https://chat-win98.herokuapp.com/",
     repo:"https://github.com/ShubhamPatilsd/chat-app"
 
+  },
+  {
+    name: "UpperLower",
+    image: upperlower,
+    description : "This is a website I made that can make text appear lIke ThIs. It was mainly made when you didn't want to manually type out that effect so you save time.",
+    techstack: [
+        {
+            logourl: html,
+            name: "HTML"
+        },
+        {
+            logourl: bootstrap,
+            name: "Bootstrap"
+        },
+        {
+            logourl: javascript,
+            name: "Javascript"
+        }
+    ],
+    link:"https://upperlower.vercel.app",
+    repo:"https://github.com/ShubhamPatilsd/upperlower-website"
+
+  },
+  {
+    name: "Terminal Bad Apple",
+    image: badapple,
+    description : "So this was a project that basically played and ASCII art version of the music video \"Bad Apple!\". It consisted of me parsing the files and converting them into ASCII art, saving that into a .txt file, and then playing them by clearing the terminal and rendering another frame.",
+    techstack: [
+        {
+            logourl: python,
+            name: "Python"
+        },
+        
+    ],
+    
+    repo:"https://github.com/ShubhamPatilsd/bad-apple-terminal"
+
+  },
+  {
+    name: "Simple Pad",
+    image: simplepad,
+    description : "This is a very simple text editing application designed for quick and simple tasks like editing a README file on the go with traditional key shortcuts.",
+    techstack: [
+        {
+            logourl: java,
+            name: "Java"
+        },
+        
+    ],
+    
+    repo:"https://github.com/ShubhamPatilsd/simple-pad/"
+
 },
+
 
 
 
