@@ -12,6 +12,9 @@ import Work from './components/Work.js';
 import Fade from 'react-reveal/Fade';
 import codeday from './images/Logos/SVG/CodeDay/codeday-notext-color.svg'
 
+import { Github, Mail } from '@geist-ui/react-icons';
+
+
 //Images
 
 import java from './images/java.svg';
@@ -26,6 +29,12 @@ import ftc from './images/ftc.jpg';
 import firebase from './images/firebase.svg';
 import react from './images/react.svg'
 import shrub from './images/person.png';
+import express from './images/express.svg'
+import nodejs from './images/nodejs.svg'
+import nextjs from './images/nextjs.svg'
+import tailwindcss from './images/tailwindcss.svg'
+import linux from './images/linux.svg'
+import typescript from './images/typescript.svg'
 
 import SortedContributions from './components/SortedContributions.js';
  
@@ -52,43 +61,49 @@ function App() {
       <Card  title="About Me">
       
         
-        <img style={{'float':'right', 'margin-left':'1rem', 'margin-bottom':'1rem', 'border-radius':'100%', 'border': '10px solid'}} src={shrub} width="200px" height=''/>
+        <img style={{'float':'right', 'margin-left':'1rem', 'margin-bottom':'1rem', 'border-radius':'100%', 'border': '5px solid'}} src={shrub} width="150px" height=''/>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed libero enim sed faucibus turpis in eu mi bibendum. Integer eget aliquet nibh praesent tristique magna sit. Vel elit scelerisque mauris pellentesque pulvinar. Diam sit amet nisl suscipit adipiscing bibendum. Ut morbi tincidunt augue interdum velit. Sem viverra aliquet eget sit amet. Morbi tristique senectus et netus et malesuada fames. Enim nunc faucibus a pellentesque sit amet porttitor. Pulvinar elementum integer enim neque volutpat ac. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Varius sit amet mattis vulputate enim.</p>
+        <p>Hello there! I’m Shubham Patil. I’m currently a high schooler studying computer science. I’m also working to increase my skills so that I can build amazing things. I value the efficiency and scalability of code, so I absolutely love automation of codebases. An example of this would be storing data in JSON files or fetching data from an API/database instead of directly hardcoding the values into the code. I mainly enjoy programming because it’s fun and it enables me to build awe-inspiring projects. Coding also drives me to learn new things and technologies, which I enjoy. I love  the concept of open-source code, so all the major projects I’ve worked on are hosted on GitHub. Besides coding, I enjoy watching movies and videos regarding technology in my free time. I don't have a favorite food per say as I enjoy many types of cuisines. I hope you have a good time exploring my site and I wish you a very good day!</p>
         
       </Card>
-      <Card  title="I Work With">
+      <Card  title="I've Worked With">
           <Skill icon={java} skillName="Java"/>
           <Skill icon={python} skillName="Python"/>
           <Skill icon={javascript} skillName="JavaScript"/>
+          
           <Skill icon={html} skillName="HTML"/>
           <Skill icon={css} skillName="CSS"/>
           <Skill icon={git} skillName="Git"/>
-          <Skill icon={bash} skillName="Bash"/>
-          <Skill icon={firebase} skillName="Firebase"/>
           <Skill icon={react} skillName="React"/>
+          <Skill icon={tailwindcss} skillName="Tailwind CSS"/>
+          <Skill icon={linux} skillName="Linux"/>
+        
+        
+          <Skill icon={nextjs} skillName="NextJS"/>
+          <Skill icon={express} skillName="Express"/>
+          <Skill icon={nodejs} skillName="NodeJS"/>
+          <Skill icon={typescript} skillName="Typescript"/>
+          
+          
+          
+          <Skill icon={firebase} skillName="Firebase"/>
+          
+          
           
           
         </Card>
       <ProjectCard>
-          <Project image="https://shubhampatilsd.github.io/space-catch-preview.webp" alt="Space Catch" desc="A game I made in 48 hours for December Virtual CodeDay 2020"/>
-          <Project image="https://shubhampatilsd.github.io/space-catch-preview.webp" alt="Space Catch" desc="A game I made in 48 hours for December Virtual CodeDay 2020"/>
+          <Project image="https://websitev1/space-catch-preview.webp" alt="Space Catch" desc="A game I made in 48 hours for December Virtual CodeDay 2020"/>
+          <Project image="https://github.com/ShubhamPatilsd/websitev1/space-catch-preview.webp" alt="Space Catch" desc="A game I made in 48 hours for December Virtual CodeDay 2020"/>
       </ProjectCard>
 
     <Card title="Contributions">
         
        
 
-        {
-        //<MediumPosts/>
-        }
-        {
-        //<Contribution date="March 22nd, 2021" link="https://shubhampatilsd.medium.com/firebase-authentication-lowering-headaches-in-developers-adb61a73fbf6" title="📝 Firebase Authentication — Lowering Headaches For Developers" desc="So I had to do some authentication with GitHub the other day for a mini-project I was making. The main idea was that I would use GitHub..."/>
-        }
+        
         <SortedContributions/>
-        {
-        //<Contribution date={new Date("February 26 2021")} link="https://www.youtube.com/watch?v=CMC8isl7wpU&t=144" title="💼 Git Workshop" desc="This was a Git workshop that I gave at Virtual CodeDay"/>
-        }
+       
         
         
     </Card>
@@ -124,6 +139,19 @@ function App() {
 
         
       </Card>
+
+
+      <Card title="Contact Me">
+        <p>Let's get in touch. You can click on any of the icons below to go to my profiles on Github, Linkedin, and my email address!</p>
+        
+        
+      <a  href="https://github.com/shubhamPatilsd/" target="_blank"><i className="contact fab fa-4x fa-github-square"/></a>
+      <a href="https://www.linkedin.com/in/shubham-patil-5352a3215/" target="_blank"><i class="contact fab fa-linkedin fa-4x"/></a>
+      <a  href="mailto:shubhampatilsd@gmail.com" target="_blank"><i  class="contact fas fa-envelope fa-4x"/></a>
+  
+      </Card>
+
+
       </Fade>
       <p style={{'text-align':'center', 'margin-top':'6rem', 'margin-bottom': '2rem'}} >🔨&nbsp;&nbsp;&nbsp;&nbsp;Built with enthusiasm by Shubham Patil</p>
       

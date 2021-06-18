@@ -9,19 +9,19 @@ async function MediumPosts(){
     let posts = []
     let newPosts = []
     
-    const response = await fetch("https://medium-feed.shubhampatilsd.workers.dev")
+    const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40shubhampatilsd")
     const data = await response.json()
           
-    posts=data.data.posts;
+    posts=data.items;
             
           
       
 
     newPosts=posts.map((post)=>{return {
         title: `📝 ${post.title}`,
-        description: post.description,
-        date: post.createdAt,
-        link: post.url
+        
+        date: post.pubDate,
+        link: post.link
 
     }})
     
