@@ -11,11 +11,11 @@ function SortedContributions(){
             MediumPosts().then(
                 res=>{
                     res = res.concat(otherData)
-                    setAllContribs(allContribs.concat(res))
+                    setAllContribs(allContribs=>allContribs.concat(res))
                 
                 }
                 )
-            
+                
             
             
         },[])

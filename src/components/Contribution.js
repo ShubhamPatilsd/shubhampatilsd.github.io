@@ -12,7 +12,7 @@ class Contribution extends React.Component{
 
             
 
-            <h3 style={{'margin':'0'}}><a className="no-underline" href={this.props.link} target="_blank">{this.props.blog ? "📝 " : ""}{this.props.title+" ->"}</a></h3>
+            <h3 style={{'margin':'0'}}><a className="no-underline" href={this.props.link} rel="noreferrer" target="_blank">{this.props.blog ? "📝 " : ""}{this.props.title+" ->"}</a></h3>
 
             <p style={{'margin':'0', 'fontSize':'18px'}}><small>{this.props.desc}</small></p>
            </div>

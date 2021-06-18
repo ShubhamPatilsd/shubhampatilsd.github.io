@@ -19,12 +19,12 @@ class ProjectCard extends React.Component{
         <div class="card-wrapper-projects">
         <div class="card">
         <div id="card-projects">
-            <h1 class="title">My Projects</h1>
+            <h1 class="title">Projects</h1>
             {//this.props.children
             }
             
             <div className="project-grid"> 
-              {projects.map((project, i)=>{return <Project key={i} repo={project.repo} image={project.image} name={project.name} desc={project.description} link={project.link} techstack={project.techstack}/> })}
+              {projects.map((project, i)=>{return <Project style={{display:'table-cell'}} key={i} repo={project.repo} image={project.image} name={project.name} desc={project.description} link={project.link} techstack={project.techstack}/> })}
             </div>
         </div>
         </div>
