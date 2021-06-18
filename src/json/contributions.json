@@ -1,0 +1,19 @@
+
+
+[
+    {
+
+        "title": "💼 Git Workshop",
+        "description": "This was a Git workshop that I gave at Virtual CodeDay, consisting of a demo and a demo of how Git and Github work.",
+        "date": "February 26 2021",
+        "link": "https://www.youtube.com/watch?v=CMC8isl7wpU&t=144"
+    },
+
+    {
+        "title": "💼 Git Workshop V2",
+        "description": "A revamped version of the last workshop I helped deliver. This one consisted of attendees actually pull requesting to a repository!",
+        "date": "June 11 2021",
+        "link": "https://www.twitch.tv/videos/1053164026"  
+    }
+
+]
