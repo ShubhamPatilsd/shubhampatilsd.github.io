@@ -20,7 +20,7 @@ async function MediumPosts(){
     newPosts=posts.map((post)=>{return {
         title: `📝 ${post.title}`,
         
-        date: post.pubDate,
+        date: post.pubDate.replaceAll("-", "/"),
         link: post.link
 
     }})
