@@ -126,30 +126,32 @@ function App() {
       </Card>
         <Card title="Experiences">
      
-     
-          <Work name="CodeDay" image={codeday} width="50px" alt="CodeDay" time={["January 2021"]}>
-              <ul>
-                  <li>Worked to spread the word about CodeDay</li>
-                  <li>Helped manage the community</li>
-                  <li>Write new features and ideas for CodeDay platforms</li>
-              </ul>
-          </Work>
-          <Work name="First Tech Challenge" image={ftc} width="70px" alt="First Lego League" time={["September 2019"]}>
-              <ul>
-                  <li>Team #16778 Cyber Wizards</li>
-                  <li>Programmed metal robots with the Java programming language to complete missions</li>
-                  <li>Worked together with a team of 6-8 people</li>
-                  <li>Helped to write an engineering notebook</li>
-              </ul>
-          </Work>
-          <Work name="First Lego League" image={fll} width="50px" alt="First Lego League" time={["August 2016", "January 2018"]}>
-              <ul>
-                  <li>Team #612 Circuit Breakers</li>
-                  <li>Programmed robots made out of Lego Technic pieces to complete missions</li>
-                  <li>Worked together with a team of 6-8 people</li>
-                  <li>Collaborated with team members to host outreach events</li>
-              </ul>
-          </Work>
+          <div className="work-grid">
+            
+                  <Work name="CodeDay" image={codeday} width="50px" alt="CodeDay" time={["January 2021"]}>
+                      <ul>
+                          <li>Worked to spread the word about CodeDay</li>
+                          <li>Helped manage the community</li>
+                          <li>Write new features and ideas for CodeDay platforms</li>
+                      </ul>
+                  </Work>
+                  <Work name="First Tech Challenge" image={ftc} width="70px" alt="First Lego League" time={["September 2019"]}>
+                      <ul>
+                          <li>Team #16778 Cyber Wizards</li>
+                          <li>Programmed metal robots with the Java programming language to complete missions</li>
+                          <li>Worked together with a team of 6-8 people</li>
+                          <li>Helped to write an engineering notebook</li>
+                      </ul>
+                  </Work>
+                  <Work name="First Lego League" image={fll} width="50px" alt="First Lego League" time={["August 2016", "January 2018"]}>
+                      <ul>
+                          <li>Team #612 Circuit Breakers</li>
+                          <li>Programmed robots made out of Lego Technic pieces to complete missions</li>
+                          <li>Worked together with a team of 6-8 people</li>
+                          <li>Collaborated with team members to host outreach events</li>
+                      </ul>
+                  </Work>
+          </div>
      
         </Card>
         <Card title="Contact Me">

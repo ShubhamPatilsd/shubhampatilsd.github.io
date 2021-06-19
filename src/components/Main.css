@@ -149,11 +149,11 @@
  
  
  .work{
-     margin-right: 10vw;
+     /* margin-right: 10vw; */
      
-     width:100%;
+    width:fit-content; 
      border: 1px solid #98B9F2;
-     
+    border-radius: 10px; 
      padding: 20px 20px;
      margin-top: 1rem;
      
@@ -233,6 +233,15 @@
      grid-template-columns: repeat(3, minmax(0, 1fr));
  
  }
+
+ .work-grid{
+    row-gap: 1em;
+    column-gap: 1em;
+    display: grid;
+    
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+}
  
  
  .contact{
@@ -261,6 +270,7 @@
      margin-top: 20px;
      /*margin-right: 20px;*/
      border: 1px solid #ccc;
+     border-radius: 10px;
      transition: 0.2s ease;
      height: 100%;
      
@@ -269,6 +279,7 @@
   
    
    div.gallery .resize {
+    border-radius: 10px;
      width: 100%;
      height: auto;
      
@@ -293,13 +304,26 @@
      
    }
    
+@media only screen and (max-width:1270px){
+    .work-grid{
+        row-gap: 1em;
+        
+        display: grid;
+        
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    
+    }
+ 
+}
+
+
    @media only screen and (max-width: 1000px) {
      .responsive {
       
        margin: 6px 0;
      }
      
- 
+    
      #name{
          font-size:clamp(40px, 3rem, 80px);
          
@@ -335,6 +359,8 @@
          grid-template-columns: repeat(2, minmax(0, 1fr));
          
      }
+
+    
      
      .card-wrapper{
      
@@ -362,6 +388,15 @@
          grid-template-columns: repeat(1, minmax(0, 1fr));
          
      }
+
+     .work-grid{
+        row-gap: 1em;
+        column-gap: 1em;
+        display: grid;
+        
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    
+    }
        .card{
  
          margin-left: 1rem;
