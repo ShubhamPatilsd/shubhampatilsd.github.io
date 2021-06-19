@@ -53,7 +53,7 @@ function App() {
       <div className="center">
       <div className='no-div-center' style={{'margin-bottom':'5rem'}}>
       
-          <h2 > Hey there! My name is</h2>
+          <h2 > Hey there! I'm</h2>
           <h2 id="name" className="title" >Shubham Patil</h2>
       
           <h2 id="sub-text" >I make <span className="title">awesome</span> things with my love for computer science.</h2>
