@@ -12,7 +12,7 @@ import Work from './components/Work.js';
 import Fade from 'react-reveal/Fade';
 import codeday from './images/Logos/SVG/CodeDay/codeday-notext-color.svg'
 
-
+import { Github, ExternalLink } from '@geist-ui/react-icons';
 
 
 //Images
@@ -65,7 +65,17 @@ function App() {
       
           <img alt="Shubham" style={{'float':'right', 'margin-left':'1rem', 'margin-bottom':'1rem', 'border-radius':'100%', 'border': '5px solid'}} src={shrub} width="150px" height=''/>
       
-          <p>Hello there! I’m Shubham Patil. I’m currently a high schooler studying computer science. I’m also working to increase my skills so that I can build amazing things. I value the efficiency and scalability of code, so I absolutely love automation of codebases. An example of this would be storing data in JSON files or fetching data from an API/database instead of directly hardcoding the values into the code. I mainly enjoy programming because it’s fun and it enables me to build awe-inspiring projects. Coding also drives me to learn new things and technologies, which I enjoy. I love  the concept of open-source code, so all the major projects I’ve worked on are hosted on GitHub. Besides coding, I enjoy watching movies and videos regarding technology in my free time. I don't have a favorite food per say as I enjoy many types of cuisines. I hope you have a good time exploring my site and I wish you a very good day!</p>
+          <p>Hello there! I’m Shubham Patil. I’m currently a high schooler studying computer science.
+            <br/><br/>
+            I’m also working to increase my skills so that I can build amazing things. I value the efficiency and scalability of code, so I absolutely love automation of codebases.
+            <br/><br/>
+            An example of this would be storing data in JSON files or fetching data from an API/database instead of directly hardcoding the values into the code. I mainly enjoy programming because it’s fun and it enables me to build awe-inspiring projects.
+            <br/><br/>
+            Coding also drives me to learn new things and technologies, which I enjoy. I love  the concept of open-source code, so all the major projects I’ve worked on are hosted on GitHub.
+            <br/><br/>
+            Besides coding, I enjoy watching movies and videos regarding technology in my free time. I don't have a favorite food per say as I enjoy many types of cuisines.
+            <br/><br/>
+             I hope you have a good time exploring my site and I wish you a very good day!</p>
       
         </Card>
         <Card  title="I've Worked With">
@@ -154,8 +164,8 @@ function App() {
 
 
       
-      
-      <p style={{'text-align':'center', 'margin-top':'6rem', 'margin-bottom': '2rem'}} >🔨&nbsp;&nbsp;&nbsp;&nbsp;Built with enthusiasm by Shubham Patil</p>
+      <p style={{"text-align":'center', "color":"#98B9F2", display:"flex", justifyContent:"center"}}><Github size={20}/>&nbsp;&nbsp;<a style={{"color":"#98B9F2", display:"flex", alignItems:"center", justifyContent:"center"}} href="https://github.com/ShubhamPatilsd/shubhampatilsd.github.io" target="_blank" rel="noreferrer">Check out the code behind this site!</a>&nbsp;&nbsp;<ExternalLink size={20}/></p>
+      <h3 style={{'text-align':'center', 'margin-top':'2rem', 'margin-bottom': '2rem'}} >🔨&nbsp;&nbsp;&nbsp;&nbsp;Built with enthusiasm by Shubham Patil</h3>
       
     </div>
     
