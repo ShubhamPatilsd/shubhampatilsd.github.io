@@ -2,7 +2,7 @@
   "name": "react-websitev2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shubhampatilsd.github.io",
+  "homepage": "https://shubhampatil.dev",
   "dependencies": {
     "@geist-ui/react-icons": "^1.0.1",
     "@testing-library/jest-dom": "^5.11.9",
