@@ -36,6 +36,7 @@ import tailwindcss from './images/tailwindcss.svg'
 import linux from './images/linux.svg'
 import typescript from './images/typescript.svg'
 import bootstrap from './images/bootstrap.svg'
+import mongodb from './images/mongodb.svg'
 
 import SortedContributions from './components/SortedContributions.js';
  
@@ -94,12 +95,15 @@ function App() {
             <Skill icon={nextjs} skillName="NextJS"/>
             <Skill icon={express} skillName="Express"/>
             <Skill icon={nodejs} skillName="NodeJS"/>
-                <Skill icon={bootstrap} skillName="Bootstrap"/>
+            <Skill icon={mongodb} skillName="MongoDB"/>
             <Skill icon={typescript} skillName="Typescript"/>
-      
-      
-      
             <Skill icon={firebase} skillName="Firebase"/>
+                <Skill icon={bootstrap} skillName="Bootstrap"/>
+            
+      
+      
+      
+            
       
       
       
