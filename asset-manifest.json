@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.93fb9c0c.chunk.css",
-    "main.js": "/static/js/main.36989611.chunk.js",
-    "main.js.map": "/static/js/main.36989611.chunk.js.map",
+    "main.js": "/static/js/main.eb632aa2.chunk.js",
+    "main.js.map": "/static/js/main.eb632aa2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97bd599d.js",
     "runtime-main.js.map": "/static/js/runtime-main.97bd599d.js.map",
     "static/js/2.1edb7e68.chunk.js": "/static/js/2.1edb7e68.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/fll_logo.01e6ad31.jpg": "/static/media/fll_logo.01e6ad31.jpg",
     "static/media/ftc.2b22970e.jpg": "/static/media/ftc.2b22970e.jpg",
     "static/media/git.ba0b25e0.svg": "/static/media/git.ba0b25e0.svg",
+    "static/media/gitworkshopsite.dc682c33.png": "/static/media/gitworkshopsite.dc682c33.png",
     "static/media/html.ecf30964.svg": "/static/media/html.ecf30964.svg",
     "static/media/java.1c3d8add.svg": "/static/media/java.1c3d8add.svg",
     "static/media/javascript.e43bba9d.svg": "/static/media/javascript.e43bba9d.svg",
@@ -45,6 +46,6 @@
     "static/js/runtime-main.97bd599d.js",
     "static/js/2.1edb7e68.chunk.js",
     "static/css/main.93fb9c0c.chunk.css",
-    "static/js/main.36989611.chunk.js"
+    "static/js/main.eb632aa2.chunk.js"
   ]
 }
