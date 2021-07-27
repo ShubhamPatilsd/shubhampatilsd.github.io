@@ -1,7 +1,7 @@
 import Card from "./components/Card.js";
 import Contact from "./components/Contact.js";
 import ProjectCard from "./components/ProjectCard.js";
-import Project from "./components/Project.js";
+
 import "./components/Main.css";
 
 import Skill from "./components/Skill.js";
@@ -125,18 +125,7 @@ function App() {
         </Card>
       </Fade>
 
-      <ProjectCard>
-        <Project
-          image="https://websitev1/space-catch-preview.webp"
-          alt="Space Catch"
-          desc="A game I made in 48 hours for December Virtual CodeDay 2020"
-        />
-        <Project
-          image="https://github.com/ShubhamPatilsd/websitev1/space-catch-preview.webp"
-          alt="Space Catch"
-          desc="A game I made in 48 hours for December Virtual CodeDay 2020"
-        />
-      </ProjectCard>
+      <ProjectCard />
 
       <Fade bottom>
         <Card title="Contributions">
@@ -172,6 +161,18 @@ function App() {
                 </li>
                 <li>Worked together with a team of 6-8 people</li>
                 <li>Helped to write an engineering notebook</li>
+                <li>
+                  <p style={{ margin: "0" }}>
+                    List of awards can be found{" "}
+                    <a
+                      href="https://ftc-events.firstinspires.org/team/16778"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      here
+                    </a>
+                  </p>
+                </li>
               </ul>
             </Work>
             <Work
