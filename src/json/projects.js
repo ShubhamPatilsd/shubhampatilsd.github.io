@@ -31,7 +31,46 @@ import gitworkshop from "../images/gitworkshopsite.png";
 //Simple pad
 import simplepad from "../images/simplepad.png";
 
+//discowave
+import nextauth from "../images/nextauth.png";
+import discowave from "../images/discowave.png";
+import p5 from "../images/p5.png";
+
 const projects = [
+  {
+    name: "DiscoWave",
+    image: discowave,
+    description:
+      "Made a webapp called DiscoWave which provides awesome audio visualizations and an intuitive song suggestions feature. More can be found at the showcase link.",
+    techstack: [
+      {
+        logourl: nextjs,
+        name: "NextJS",
+      },
+      {
+        logourl: react,
+        name: "React",
+      },
+      {
+        logourl: tailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
+        logourl: typescript,
+        name: "Typescript",
+      },
+      {
+        logourl: nextauth,
+        name: "NextAuth",
+      },
+      {
+        logourl: p5,
+        name: "p5.js",
+      },
+    ],
+    link: "https://showcase.codeday.org/project/ckqtyhfmo91620210qu4j6ddiak",
+    repo: "https://github.com/codeday-labs/disco-wave",
+  },
   {
     name: "Edumango",
     image: edumango,

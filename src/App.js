@@ -35,6 +35,7 @@ import typescript from "./images/typescript.svg";
 import bootstrap from "./images/bootstrap.svg";
 import mongodb from "./images/mongodb.svg";
 import postgres from "./images/postgres.svg";
+import nextauth from "./images/nextauth.png";
 
 import SortedContributions from "./components/SortedContributions.js";
 
@@ -115,11 +116,13 @@ function App() {
           <Skill icon={tailwindcss} skillName="Tailwind CSS" />
           <Skill icon={nextjs} skillName="NextJS" />
           <Skill icon={express} skillName="Express" />
+          <Skill icon={typescript} skillName="Typescript" />
           <Skill icon={postgres} skillName="Postgres" />
           <Skill icon={linux} skillName="Linux" />
 
           <Skill icon={mongodb} skillName="MongoDB" />
-          <Skill icon={typescript} skillName="Typescript" />
+          <Skill icon={nextauth} skillName="NextAuth" />
+
           <Skill icon={firebase} skillName="Firebase" />
           <Skill icon={bootstrap} skillName="Bootstrap" />
         </Card>
