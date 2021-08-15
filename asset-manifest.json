@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.93fb9c0c.chunk.css",
-    "main.js": "/static/js/main.2dee2d98.chunk.js",
-    "main.js.map": "/static/js/main.2dee2d98.chunk.js.map",
+    "main.js": "/static/js/main.cfd26e7d.chunk.js",
+    "main.js.map": "/static/js/main.cfd26e7d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97bd599d.js",
     "runtime-main.js.map": "/static/js/runtime-main.97bd599d.js.map",
     "static/js/2.1edb7e68.chunk.js": "/static/js/2.1edb7e68.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/chat-win98.ec23152d.png": "/static/media/chat-win98.ec23152d.png",
     "static/media/codeday-notext-color.88e19e00.svg": "/static/media/codeday-notext-color.88e19e00.svg",
     "static/media/css.30ca7d60.svg": "/static/media/css.30ca7d60.svg",
+    "static/media/discowave.fceac9b5.png": "/static/media/discowave.fceac9b5.png",
     "static/media/edumango-screenshot.084c5861.png": "/static/media/edumango-screenshot.084c5861.png",
     "static/media/express.c2405ddf.svg": "/static/media/express.c2405ddf.svg",
     "static/media/firebase.7840999a.svg": "/static/media/firebase.7840999a.svg",
@@ -30,8 +31,10 @@
     "static/media/keyshare.1304f2f6.png": "/static/media/keyshare.1304f2f6.png",
     "static/media/linux.5780b5e3.svg": "/static/media/linux.5780b5e3.svg",
     "static/media/mongodb.c10e101a.svg": "/static/media/mongodb.c10e101a.svg",
+    "static/media/nextauth.33ffabfe.png": "/static/media/nextauth.33ffabfe.png",
     "static/media/nextjs.12fe6d50.svg": "/static/media/nextjs.12fe6d50.svg",
     "static/media/nodejs.684672c1.svg": "/static/media/nodejs.684672c1.svg",
+    "static/media/p5.51669fe4.png": "/static/media/p5.51669fe4.png",
     "static/media/person.63045093.png": "/static/media/person.63045093.png",
     "static/media/postgres.cd5ae18a.svg": "/static/media/postgres.cd5ae18a.svg",
     "static/media/python.696e5d1f.svg": "/static/media/python.696e5d1f.svg",
@@ -46,6 +49,6 @@
     "static/js/runtime-main.97bd599d.js",
     "static/js/2.1edb7e68.chunk.js",
     "static/css/main.93fb9c0c.chunk.css",
-    "static/js/main.2dee2d98.chunk.js"
+    "static/js/main.cfd26e7d.chunk.js"
   ]
 }
