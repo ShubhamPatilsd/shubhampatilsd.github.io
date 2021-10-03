@@ -36,6 +36,11 @@ import nextauth from "../images/nextauth.png";
 import discowave from "../images/discowave.png";
 import p5 from "../images/p5.png";
 
+//codernetwork
+import express from "../images/express.svg";
+import mongodb from "../images/mongodb.svg";
+import codernetwork from "../images/codernetwork.png";
+
 const projects = [
   {
     name: "DiscoWave",
@@ -70,6 +75,31 @@ const projects = [
     ],
     link: "https://showcase.codeday.org/project/ckqtyhfmo91620210qu4j6ddiak",
     repo: "https://github.com/codeday-labs/disco-wave",
+  },
+  {
+    name: "CoderNetwork",
+    image: codernetwork,
+    description: "Social media platform for programmers that I made",
+    techstack: [
+      {
+        logourl: react,
+        name: "React",
+      },
+      {
+        logourl: firebase,
+        name: "Firebase",
+      },
+      {
+        logourl: express,
+        name: "Express",
+      },
+      {
+        logourl: mongodb,
+        name: "Mongo DB",
+      },
+    ],
+    link: "https://coder-network.vercel.app",
+    repo: "https://github.com/ShubhamPatilsd/coder-network-frontend",
   },
   {
     name: "Edumango",
