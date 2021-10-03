@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9aacc066.chunk.css",
-    "main.js": "/static/js/main.cfd26e7d.chunk.js",
-    "main.js.map": "/static/js/main.cfd26e7d.chunk.js.map",
+    "main.js": "/static/js/main.a17e318e.chunk.js",
+    "main.js.map": "/static/js/main.a17e318e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97bd599d.js",
     "runtime-main.js.map": "/static/js/runtime-main.97bd599d.js.map",
     "static/js/2.1edb7e68.chunk.js": "/static/js/2.1edb7e68.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/bootstrap.d0ac553b.svg": "/static/media/bootstrap.d0ac553b.svg",
     "static/media/chat-win98.ec23152d.png": "/static/media/chat-win98.ec23152d.png",
     "static/media/codeday-notext-color.88e19e00.svg": "/static/media/codeday-notext-color.88e19e00.svg",
+    "static/media/codernetwork.329e442d.png": "/static/media/codernetwork.329e442d.png",
     "static/media/css.30ca7d60.svg": "/static/media/css.30ca7d60.svg",
     "static/media/discowave.fceac9b5.png": "/static/media/discowave.fceac9b5.png",
     "static/media/edumango-screenshot.084c5861.png": "/static/media/edumango-screenshot.084c5861.png",
@@ -49,6 +50,6 @@
     "static/js/runtime-main.97bd599d.js",
     "static/js/2.1edb7e68.chunk.js",
     "static/css/main.9aacc066.chunk.css",
-    "static/js/main.cfd26e7d.chunk.js"
+    "static/js/main.a17e318e.chunk.js"
   ]
 }
