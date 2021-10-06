@@ -218,11 +218,18 @@ function App() {
             <i class="contact fab fa-linkedin fa-4x" />
           </a>
           <a
+            href="https://twitter.com/ShubhamPatilsd"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i class="contact fab fa-twitter fa-4x" />
+          </a>
+          <a
             href="mailto:shubhampatilsd@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
-            <i class="contact fas fa-envelope fa-4x" />
+            <i class="contact-email fas fa-envelope fa-4x" />
           </a>
         </Card>
       </Fade>
