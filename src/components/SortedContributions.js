@@ -1,6 +1,7 @@
 import BlogPosts from "./BlogPosts";
 import otherData from "../json/contributions.json";
 import Contribution from "./Contribution";
+import BlogContribution from "./BlogContribution";
 import { useEffect, useState } from "react";
 
 function SortedContributions() {
@@ -22,7 +23,17 @@ function SortedContributions() {
           return new Date(two.date) - new Date(one.date);
         })
         .map((contrib, i) => {
-          return (
+          return contrib.type && contrib.type === "blog" ? (
+            <BlogContribution
+              key={i}
+              date={new Date(contrib.date)}
+              link={contrib.link}
+              title={contrib.title}
+              desc={contrib.description}
+              reactions={contrib.reactions}
+              comments={contrib.comments}
+            />
+          ) : (
             <Contribution
               key={i}
               date={new Date(contrib.date)}

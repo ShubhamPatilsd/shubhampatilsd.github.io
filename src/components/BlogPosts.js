@@ -20,6 +20,10 @@ async function BlogPosts() {
 
       date: post.published_timestamp,
       link: post.url,
+      description: post.description,
+      type: "blog",
+      reactions: post.public_reactions_count,
+      comments: post.comments_count,
     };
   });
 

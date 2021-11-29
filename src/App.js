@@ -144,7 +144,11 @@ function App() {
               time={["January 2021"]}
             >
               <ul>
-                <li>Worked to spread the word about CodeDay</li>
+                <li>
+                  Assisted with holding CodeDay Bay Area as an Assistant
+                  Regional Manager
+                </li>
+                <li>Worked to spread the word about CodeDay (volunteering)</li>
                 <li>Helped manage the community</li>
                 <li>Write new features and ideas for CodeDay platforms</li>
               </ul>

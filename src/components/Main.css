@@ -140,6 +140,7 @@ body {
   grid-template-columns: 1.5rem auto;
   justify-content: start;
   align-items: flex-start;
+  margin-top: 0.5rem;
 }
 
 .work ul {
@@ -168,7 +169,9 @@ i.fab {
   font-size: clamp(40px, 2em, 80px);
 }
 
-/*<div class="skill">Java</div>*/
+.blogpost-icon {
+  margin-right: 0.5rem;
+}
 
 #contact-wrapper {
   position: absolute;
