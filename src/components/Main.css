@@ -30,6 +30,15 @@ div.center {
   justify-content: center;
 }
 
+.about-div {
+  /* max-width: 500px; */
+  width: "65%";
+  font-weight: "revert";
+  /* display: grid; */
+  /* place-items: "center"; */
+  /* border: "1px solid red"; */
+}
+
 .card-wrapper {
   display: flex;
 

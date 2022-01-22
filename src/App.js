@@ -60,48 +60,60 @@ function App() {
         </div>
 
         <Card title="About Me">
-          <img
-            alt="Shubham"
-            style={{
-              float: "right",
-              "margin-left": "1rem",
-              "margin-bottom": "1rem",
-              "border-radius": "100%",
-              border: "5px solid",
-            }}
-            src={shrub}
-            width="150px"
-            height=""
-          />
-
-          <p>
-            Hello there! I’m Shubham Patil. I’m currently a high schooler
-            studying computer science.
-            <br />
-            <br />
-            I’m also working to increase my skills so that I can build amazing
-            things. I value the efficiency and scalability of code, so I
-            absolutely love automation of codebases.
-            <br />
-            <br />
-            An example of this would be storing data in JSON files or fetching
-            data from an API/database instead of directly hardcoding the values
-            into the code. I mainly enjoy programming because it’s fun and it
-            enables me to build awe-inspiring projects.
-            <br />
-            <br />
-            Coding also drives me to learn new things and technologies, which I
-            enjoy. I love the concept of open-source code, so all the major
-            projects I’ve worked on are hosted on GitHub.
-            <br />
-            <br />
-            Besides coding, I enjoy watching movies and videos regarding
-            technology in my free time. I don't have a favorite food per say as
-            I enjoy many types of cuisines.
-            <br />
-            <br />I hope you have a good time exploring my site and I wish you a
-            very good day!
-          </p>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <div className="about-div" style={{ textAlign: "center" }}>
+              <img
+                alt="Shubham"
+                style={{
+                  // float: "right",
+                  "margin-left": "1rem",
+                  "margin-bottom": "1rem",
+                  "border-radius": "100%",
+                  border: "5px solid",
+                }}
+                src={shrub}
+                width="150px"
+                height=""
+              />
+              <p>
+                {/* Hello there! I’m Shubham Patil. I’m currently a high schooler
+                  studying computer science.
+                  <br />
+                  <br />
+                  I’m also working to increase my skills so that I can build amazing
+                  things. I value the efficiency and scalability of code, so I
+                  absolutely love automation of codebases.
+                  <br />
+                  <br />
+                  An example of this would be storing data in JSON files or fetching
+                  data from an API/database instead of directly hardcoding the values
+                  into the code. I mainly enjoy programming because it’s fun and it
+                  enables me to build awe-inspiring projects.
+                  <br />
+                  <br />
+                  Coding also drives me to learn new things and technologies, which I
+                  enjoy. I love the concept of open-source code, so all the major
+                  projects I’ve worked on are hosted on GitHub.
+                  <br />
+                  <br />
+                  Besides coding, I enjoy watching movies and videos regarding
+                  technology in my free time. I don't have a favorite food per say as
+                  I enjoy many types of cuisines.
+                  <br />
+                  <br />I hope you have a good time exploring my site and I wish you a
+                  very good day! */}
+                Hey there! I'm Shubham Patil, programmer by night and high
+                schooler by day. I'm a fullstack developer who especially loves
+                building awesome things with code! I also have a{" "}
+                <a href="https://dev.to/shubhampatilsd/">blog</a> and a{" "}
+                <a href="https://www.youtube.com/channel/UCExbrmSa1r97Q3AUNvkpdnQ">
+                  YouTube channel
+                </a>{" "}
+                where I talk about tech! At the moment, coding is a hobby of
+                mine, but I wish to expand it into a career.
+              </p>
+            </div>
+          </div>
         </Card>
         <Card title="I've Worked With">
           <Skill icon={java} skillName="Java" />
