@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.33989586.chunk.css",
-    "main.js": "/static/js/main.d981fb6c.chunk.js",
-    "main.js.map": "/static/js/main.d981fb6c.chunk.js.map",
+    "main.css": "/static/css/main.8b4cf747.chunk.css",
+    "main.js": "/static/js/main.58ef391a.chunk.js",
+    "main.js.map": "/static/js/main.58ef391a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97bd599d.js",
     "runtime-main.js.map": "/static/js/runtime-main.97bd599d.js.map",
     "static/js/2.645c59bd.chunk.js": "/static/js/2.645c59bd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ece6478.chunk.js": "/static/js/3.2ece6478.chunk.js",
     "static/js/3.2ece6478.chunk.js.map": "/static/js/3.2ece6478.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.33989586.chunk.css.map": "/static/css/main.33989586.chunk.css.map",
+    "static/css/main.8b4cf747.chunk.css.map": "/static/css/main.8b4cf747.chunk.css.map",
     "static/js/2.645c59bd.chunk.js.LICENSE.txt": "/static/js/2.645c59bd.chunk.js.LICENSE.txt",
     "static/media/badapple.46de69da.png": "/static/media/badapple.46de69da.png",
     "static/media/bootstrap.d0ac553b.svg": "/static/media/bootstrap.d0ac553b.svg",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.97bd599d.js",
     "static/js/2.645c59bd.chunk.js",
-    "static/css/main.33989586.chunk.css",
-    "static/js/main.d981fb6c.chunk.js"
+    "static/css/main.8b4cf747.chunk.css",
+    "static/js/main.58ef391a.chunk.js"
   ]
 }
